@@ -1,0 +1,45 @@
+<resources>
+    <string name="version">version 1.6</string>
+    <string name="app_name">TraderLive</string>
+    <string name="trader">TRADER</string>
+    <string name="live">Live</string>
+    <string name="entrar">Entrar</string>
+
+
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Senha inválida</string>
+    <string name="error_field_required">Preenchimento obrigatório</string>
+    <string name="prompt_email">Email</string>
+
+    <string name="errorSenhaEmail">Email e/ou Senha incorreto(s)</string>
+
+    <string name="www">www.traderlive.com.br</string>
+    <string name="email">traderlivebr@gmail.com</string>
+    <string name="insta">instagram: traderlivebr</string>
+    <string name="telegram">telegram: @traderlive</string>
+    <string name="tel">whatsapp: 31 97328-7878</string>
+
+    <string name="hello">Hello World: %1$d</string>
+
+
+    <string name="menu_videos">Vídeos</string>
+    <string name="menu_desempenho">Banca</string>
+    <string name="menu_neteller">Neteller</string>
+    <string name="menu_parceiros">Parceiros</string>
+    <string name="menu_ajuda">Ajuda</string>
+    <string name="menu_sair">Sair</string>
+
+
+    <string name="ajuda_back">Back ou MI = entrada a favor</string>
+    <string name="ajuda_btts">BTTS = ambas as equipes marcam</string>
+    <string name="ajuda_dnb">DNB = empate anula a aposta</string>
+    <string name="ajuda_dc">DC ou DP = dupla possibilidade (vitória ou empate)</string>
+
+
+    <string name="change_pass">Alterar senha</string>
+    <string name="parceiros_link">Link parceiros</string>
+
+</resources>

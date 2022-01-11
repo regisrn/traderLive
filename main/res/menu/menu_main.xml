@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="rsn.traderlive.HomeActivity">
+
+
+
+    <item
+        android:id="@+id/menu_videos"
+        android:orderInCategory="100"
+        android:title="@string/menu_videos"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_desempenho"
+        android:orderInCategory="100"
+        android:title="@string/menu_desempenho"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_parceiros"
+        android:orderInCategory="100"
+        android:title="@string/menu_parceiros"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_neteller"
+        android:orderInCategory="100"
+        android:title="@string/menu_neteller"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_ajuda"
+        android:orderInCategory="100"
+        android:title="@string/menu_ajuda"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_sair"
+        android:orderInCategory="100"
+        android:title="@string/menu_sair"
+        app:showAsAction="never" />
+
+
+
+</menu>

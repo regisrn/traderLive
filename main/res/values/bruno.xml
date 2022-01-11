@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="tjogos">
+        <item>Vasco x Flamengo</item>
+        <item>Juventude x Vitória</item>
+    </string-array>
+
+    <string-array name="tentradas">
+        <item>- Under 1.5</item>
+        <item>- Under 3.5 FT</item>
+    </string-array>
+
+
+
+
+    <string-array name="pjogos">
+        <item>Fortaleza x Remo</item>
+        <item>Agreste x Santa Maria</item>
+    </string-array>
+
+    <string-array name="pentradas">
+        <item>- BTS</item>
+        <item>- BTSN</item>
+    </string-array>
+
+
+
+
+    <string-array name="mjogos">
+        <item>América MG x Paysandu</item>
+        <item>Flamengo x Vasco</item>
+    </string-array>
+
+    <string-array name="mentradas">
+        <item>- Over 1.5 FT</item>
+        <item>- Over 3.5 FT</item>
+    </string-array>
+
+
+
+
+    <string-array name="vjogos">
+        <item>Juve x Real</item>
+        <item>Barça x City</item>
+    </string-array>
+
+    <string-array name="ventradas">
+        <item>- Handicap </item>
+        <item>- Back</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_collapseMode="none">
+
+
+    <ScrollView
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Away"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="time visitante"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Back / ML"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="a favor"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Banca"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="valor total na sua conta"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BTTS / AM"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ambas as equipes marcam"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cantos"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="escanteios"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cantos (Race)"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="corrida para escanteios (quem alcança primeiro)"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cash out"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="fechar operação"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Clean sheet"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="baliza inviolada : time nao sofre gol"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Correct Score"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="resultado exato"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Delay"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="atraso na transmissão"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DP / DC"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="dupla possibilitade (vitória + empate)"
+            android:gravity="left"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DNB"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="draw no bet : empate anula aposta"
+            android:gravity="left"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Freebet"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="operação feita com lucro de operação anterior"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FT"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="full time : todo o tempo do jogo"
+            android:gravity="left"/>
+
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Green"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="lucro"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Handicap"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="vantagem ou desvantagem dada a um time."
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ex: Barcelona -1 = aposta ganha se Barcelona ganhar com 2 gols de diferença. Vitória com apenas um gol de diferença, empate ou derrota, a stake é perdida"
+            android:gravity="left"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="time da casa"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HT"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="half time : primeiro tempo"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lay"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="contra"
+            android:gravity="left"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LTD"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="lay the draw - contra o empate"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Odd"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="cotação/probabilidade de um evento ocorrer"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Over"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="mais de..."
+            android:gravity="left"/>
+
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Punter"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="sustentar operação até o fim do jogo"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Red"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="prejuízo"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Responsabilidade"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="investimento em mercado contra"
+            android:gravity="left"/>
+
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Stake"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="valor do investimento"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Stream"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="jogo transmitido por algum site"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tick"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="mínima variação de uma odd"
+            android:gravity="left"/>
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Under"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="menos de..."
+            android:gravity="left"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/insta"
+            android:gravity="center_horizontal"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/email" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/tel" />
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
